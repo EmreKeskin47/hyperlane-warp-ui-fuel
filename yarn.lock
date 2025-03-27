@@ -4500,7 +4500,7 @@ __metadata:
 
 "@hyperlane-xyz/sdk@file:./hyperlane-monorepo/typescript/sdk::locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A.":
   version: 8.6.1
-  resolution: "@hyperlane-xyz/sdk@file:./hyperlane-monorepo/typescript/sdk#./hyperlane-monorepo/typescript/sdk::hash=0ee005&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
+  resolution: "@hyperlane-xyz/sdk@file:./hyperlane-monorepo/typescript/sdk#./hyperlane-monorepo/typescript/sdk::hash=d2b87f&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
   dependencies:
     "@arbitrum/sdk": "npm:^4.0.0"
     "@aws-sdk/client-s3": "npm:^3.577.0"
@@ -4525,13 +4525,13 @@ __metadata:
   peerDependencies:
     "@ethersproject/abi": "*"
     "@ethersproject/providers": "*"
-  checksum: 10/a77793aab9e313b0d921dcd0c36d05478673ef6f01e48d85c1d968d50d148ce7d6f30833fc9ba97bb40d3d0a95de204cfe15708657e2adbd9df27c183f33d47a
+  checksum: 10/df4b2fb183734b0af9a85575aa5fd2cfac2dc9833b04cca88d35bac6e3a23ea4f8468b52ab1acfdbd1b687283df57281212df0140d8409464efae0e8ef422e9c
   languageName: node
   linkType: hard
 
 "@hyperlane-xyz/utils@file:./hyperlane-monorepo/typescript/utils::locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A.":
   version: 8.6.1
-  resolution: "@hyperlane-xyz/utils@file:./hyperlane-monorepo/typescript/utils#./hyperlane-monorepo/typescript/utils::hash=a87759&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
+  resolution: "@hyperlane-xyz/utils@file:./hyperlane-monorepo/typescript/utils#./hyperlane-monorepo/typescript/utils::hash=f0f580&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
   dependencies:
     "@cosmjs/encoding": "npm:^0.32.4"
     "@solana/web3.js": "npm:^1.95.4"
@@ -4541,7 +4541,7 @@ __metadata:
     lodash-es: "npm:^4.17.21"
     pino: "npm:^8.19.0"
     yaml: "npm:2.4.5"
-  checksum: 10/69ee65910db28e927a743490ab26ea4fa2f22a68be57aeb67a217b2b8dccce2fad99aeb1ec1bc77b3feb50bc99c243dce4a89d3a878a6d4873d7c132bf6cf7c2
+  checksum: 10/70a7534c9be03229d572023801c49444760ce9025c8dada92d72a64dfbb3f64bad7f45bd67fbb04b1367d1ade1721f7606ceffd215bbab9b55b5c1dd832305cc
   languageName: node
   linkType: hard
 
@@ -4629,7 +4629,7 @@ __metadata:
 
 "@hyperlane-xyz/widgets@file:./hyperlane-monorepo/typescript/widgets::locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A.":
   version: 8.6.1
-  resolution: "@hyperlane-xyz/widgets@file:./hyperlane-monorepo/typescript/widgets#./hyperlane-monorepo/typescript/widgets::hash=71e410&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
+  resolution: "@hyperlane-xyz/widgets@file:./hyperlane-monorepo/typescript/widgets#./hyperlane-monorepo/typescript/widgets::hash=533480&locator=%40hyperlane-xyz%2Fwarp-ui-template%40workspace%3A."
   dependencies:
     "@cosmos-kit/react": "npm:^2.18.0"
     "@headlessui/react": "npm:^2.1.8"
@@ -4647,7 +4647,7 @@ __metadata:
   peerDependencies:
     react: ^18
     react-dom: ^18
-  checksum: 10/08ba28f7a24f440bbbac87da61484ae4929880e8b2ad9e45795ed0f3b9ce0d727579fce029531850c0559d046e6cb8e22f18c6d4eab068051024b4d44b58354d
+  checksum: 10/cec82ad72b73ff1bb9cfd7003eeb5b6fe616578990022a596e92081e2bab01f15c69713688c6c0280368b8eec51fbdf96606f2335095d797fd57757cf0de693d
   languageName: node
   linkType: hard
 
