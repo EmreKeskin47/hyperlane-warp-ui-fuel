@@ -6,4 +6,4 @@
 [submodule "hyperlane-monorepo"]
 	path = hyperlane-monorepo
 	url = https://github.com/fuel-infrastructure/hyperlane-monorepo.git
-  branch = main
+  branch = feat/fuel-e2e

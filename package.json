@@ -3,6 +3,14 @@
   "description": "A web app template for building Hyperlane Warp Route UIs",
   "version": "8.5.0",
   "author": "J M Rossy",
+  "workspaces": {
+    "packages": [
+      "hyperlane-registry",
+      "hyperlane-monorepo/typescript/sdk",
+      "hyperlane-monorepo/typescript/utils",
+      "hyperlane-monorepo/typescript/widgets"
+    ]
+  },
   "dependencies": {
     "@chakra-ui/next-js": "^2.4.2",
     "@chakra-ui/react": "^2.8.2",
@@ -20,10 +28,10 @@
     "@fuels/connectors": "0.36.1",
     "@fuels/react": "^0.36.1",
     "@headlessui/react": "^2.2.0",
-    "@hyperlane-xyz/registry": "file:./hyperlane-registry",
-    "@hyperlane-xyz/sdk": "file:./hyperlane-monorepo/typescript/sdk",
-    "@hyperlane-xyz/utils": "file:./hyperlane-monorepo/typescript/utils",
-    "@hyperlane-xyz/widgets": "file:./hyperlane-monorepo/typescript/widgets",
+    "@hyperlane-xyz/registry": "*",
+    "@hyperlane-xyz/sdk": "*",
+    "@hyperlane-xyz/utils": "*",
+    "@hyperlane-xyz/widgets": "*",
     "@interchain-ui/react": "^1.23.28",
     "@metamask/post-message-stream": "6.1.2",
     "@metamask/providers": "10.2.1",
@@ -94,7 +102,8 @@
   "scripts": {
     "clean": "rm -rf dist cache .next",
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn build-deps && next build",
+    "build-deps": "yarn workspace @hyperlane-xyz/utils build && yarn workspace @hyperlane-xyz/sdk build && yarn workspace @hyperlane-xyz/widgets build && yarn workspace @hyperlane-xyz/registry build",
     "typecheck": "tsc",
     "lint": "next lint",
     "start": "next start",
@@ -113,9 +122,6 @@
     "lit-html": "2.8.0",
     "react-fast-compare": "^3.2",
     "viem": "^2.21.41",
-    "zustand": "^4.4",
-    "@hyperlane-xyz/utils": "file:./hyperlane-monorepo/typescript/utils",
-    "@hyperlane-xyz/sdk": "file:./hyperlane-monorepo/typescript/sdk",
-    "@hyperlane-xyz/widgets": "file:./hyperlane-monorepo/typescript/widgets"
+    "zustand": "^4.4"
   }
 }
