@@ -1,0 +1,6 @@
+[submodule "hyperlane-registry"]
+	path = hyperlane-registry
+	url = https://github.com/fuel-infrastructure/hyperlane-registry.git
+[submodule "hyperlane-monorepo"]
+	path = hyperlane-monorepo
+	url = https://github.com/fuel-infrastructure/hyperlane-monorepo.git
